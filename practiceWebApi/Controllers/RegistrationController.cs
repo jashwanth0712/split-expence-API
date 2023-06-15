@@ -16,7 +16,7 @@ namespace practiceWebApi.Controllers
         }
 
         [HttpPost]
-        [Route("reistration")]
+        [Route("registration")]
         public string registration(Registration registration)
         {
             SqlConnection con = new SqlConnection(_configuration.GetConnectionString("ToysCon").ToString());
